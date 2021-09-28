@@ -19,8 +19,8 @@ Visit [docs.openvidu.io/en/stable/advanced-features/filters](http://docs.openvid
 docker run --rm -d -p 4443:4443 -e openvidu.secret=MY_SECRET openvidu/openvidu-server-kms:2.20.0
 
 # Clone and serve openvidu-filters application
-git clone https://github.com/OpenVidu/openvidu-tutorials.git
-cd openvidu-tutorials/openvidu-filters
+git git@github.com:pabloFuente/openvidu-filter-ipcam.git
+cd openvidu-filter-ipcam
 http-server web/
 ```
 
